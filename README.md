@@ -1,2 +1,2 @@
-# Curso_Python 🐍
-Anotações dos cursos de Python
+# :star: Curso_de_Python 🐍
+Anotações  e exercícios dos cursos de Python :heavy_check_mark:
