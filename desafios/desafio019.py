@@ -1,3 +1,4 @@
+#professor quer sortear 1 aluno dos 4
 import random
 a1, a2, a3, a4 = input('Informe o nome dos alunos: ').split()
 escolha = random.randint(1, 4)
