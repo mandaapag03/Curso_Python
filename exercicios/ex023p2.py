@@ -1,0 +1,12 @@
+num = int(input('Número: '))
+u = num % 10
+print(f'Unidade = {u}')
+num = num // 10
+d = num % 10
+print(f'Dezena = {d}')
+num = num // 10
+c = num % 10
+print(f'Centena = {c}')
+num = num// 10
+m = num % 10
+print(f'Milhar = {m}')
