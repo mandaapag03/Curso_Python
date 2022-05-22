@@ -1,4 +1,4 @@
-nome = input('Nome Completo: ')
-nome = nome.upper().split()
+nome = input('Nome Completo: ').strip()
+nome = nome.upper()
 resposta = 'SILVA' in nome
 print(f'Tem Silva? R: {resposta}')

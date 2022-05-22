@@ -7,6 +7,6 @@ print(f'Dezena = {d}')
 num = num // 10
 c = num % 10
 print(f'Centena = {c}')
-num = num// 10
+num = num // 10
 m = num % 10
 print(f'Milhar = {m}')

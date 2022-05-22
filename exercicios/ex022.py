@@ -1,7 +1,7 @@
-nome = input('Nome Completo: ')
+nome = input('Nome Completo: ').strip()
 print(f'Maiúscula: {nome.upper()}')
 print(f'Minúscula: {nome.lower()}')
-length = len(nome.replace(' ',''))
+length = len(nome.replace(' ', ''))
 print(f'N° de letras: {length}')
 nome = nome.split()
 primeiro_nome = nome[0]
