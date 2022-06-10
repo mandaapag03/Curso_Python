@@ -1,6 +1,9 @@
 def separa(n):
+    n = str(n)
+    n = list(n)
     l = []
-    for _ in range(4):
+    for _ in len(n):
+        n = int(n)
         num = n % 10
         l.append(num)
         n = n // 10

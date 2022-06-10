@@ -3,7 +3,7 @@ a = float(a)
 b = float(b)
 c = float(c)
 
-if a > b + c or b > a + c or c > a + b:
+if a >= b + c or b >= a + c or c >= a + b:
     print('Os segmentos de reta NÃO PODEM formar o triângulo')
 else:
     if a == b == c:
